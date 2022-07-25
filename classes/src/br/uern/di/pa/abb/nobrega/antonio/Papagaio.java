@@ -2,39 +2,35 @@ package br.uern.di.pa.abb.nobrega.antonio;
 
 public class Papagaio extends Passaro{
 
-	private int distancia;
-	static private int distancia_maxima;
+	private int distancia_maxima=0;
 
 	public Papagaio(int distancia) {
-		this.distancia = distancia;
-		distancia_maxima=10;
+		this.distancia_maxima = distancia;
+		
 	}
 
-	public int getDistancia() {
-		return distancia;
+	public int getDistancia_maxima() {
+		return distancia_maxima;
 	}
 
-	public void setDistancia(int distancia) {
-		this.distancia = distancia;
+	public void setDistancia_maxima(int distancia_maxima) {
+		this.distancia_maxima = distancia_maxima;
 	}
 	
 	public void cantar(){
 		System.out.println("Papagaio legal");
 	}
 	
-	public int voar(int distancia) {
+	public int voar(int valor) {
 		 
-		int resultado;
-		
-		if(distancia<distancia_maxima) {
-			resultado=distancia;
-		 }
-		 
+		int distancia=0;
+		if( valor >this.distancia_maxima){
+			distancia=this.distancia_maxima;
+		}
 		else {
-			resultado=distancia_maxima; 
+			distancia=valor;
 		}
 		
-		System.out.println(resultado);
-		return resultado;
+		return distancia;
 	}
 }

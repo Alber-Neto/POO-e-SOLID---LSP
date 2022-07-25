@@ -4,6 +4,6 @@ public interface Ave {
 
 	public void cantar(); 
 	
-	public int voar(int distancia); 
+	public int voar(int valor); 
 		
 }

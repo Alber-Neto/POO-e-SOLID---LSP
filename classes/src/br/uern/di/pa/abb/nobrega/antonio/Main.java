@@ -21,10 +21,9 @@ public class Main {
 			distancia=input.nextInt();
 			
 			Papagaio papagaio= new Papagaio(distancia);
-			papagaio.setDistancia(distancia);
+			papagaio.setDistancia_maxima(distancia);
 			
 			papagaio.cantar();
-			System.out.println("distancia :");
 			papagaio.voar(distancia);
 			
 		}
@@ -34,11 +33,9 @@ public class Main {
 			distancia=input.nextInt();
 			
 			Currupio currupio= new Currupio(distancia);
-			currupio.setDistancia(distancia);
-			currupio.setDistancia(distancia);
+			currupio.setDistancia_maxima(distancia);
 			
 			currupio.cantar();
-			System.out.println("distancia :");
 			currupio.voar(distancia);
 			
 		}
