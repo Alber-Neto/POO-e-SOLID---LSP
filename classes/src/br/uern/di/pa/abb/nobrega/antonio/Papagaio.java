@@ -1,4 +1,5 @@
 package br.uern.di.pa.abb.nobrega.antonio;
+import br.uern.di.pa.abb.nobrega.antonio.Passaro;
 
 public class Papagaio extends Passaro{
 

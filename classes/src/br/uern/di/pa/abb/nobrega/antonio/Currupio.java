@@ -1,9 +1,10 @@
 package br.uern.di.pa.abb.nobrega.antonio;
+import br.uern.di.pa.abb.nobrega.antonio.Passaro;
 
 public class Currupio extends Passaro{
 
 	
-	private int distancia_maxima;
+	private int distancia_maxima=0;
 	
 	public Currupio (int distancia) {
 		this.distancia_maxima = distancia;
