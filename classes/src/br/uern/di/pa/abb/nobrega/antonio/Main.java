@@ -6,8 +6,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-	Papagaio papagaio=new Papagaio(10);
-	Currupio currupio=new Currupio(20);
+	Passaro papagaio=new Papagaio(10);
+	Passaro currupio=new Currupio(20);
 	
 	papagaio.cantar();
 	System.out.println("papagaio voa: " + papagaio.voar(10));
