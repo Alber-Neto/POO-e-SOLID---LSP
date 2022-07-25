@@ -1,6 +1,8 @@
 package br.uern.di.pa.abb.nobrega.antonio;
 
 import java.util.Scanner;
+import br.uern.di.pa.abb.nobrega.antonio.Papagaio;
+import br.uern.di.pa.abb.nobrega.antonio.Currupio;
 
 public class Main {
 
